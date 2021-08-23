@@ -1,0 +1,137 @@
+.wrapper {
+  display: grid;
+
+  width: 521px;
+  height: 115px;
+  //   border: 2px solid #2a2d3a;
+  border: none;
+  //   margin-left: 800px;
+  margin-left: 41%;
+  margin-top: 845px;
+  position: absolute;
+  //   grid-template-columns: auto auto auto;
+  //   grid-template-rows: auto auto auto;
+  grid-template-columns: 86px 255px 150px;
+  gap: 14px;
+}
+
+.rectangle2 {
+  //   margin: 0 20px;
+  display: block;
+  width: 86px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  border: 1.5px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  position: relative;
+  //   margin-right: 14px;
+}
+
+.kolob {
+  margin: 14px 150px 0 0;
+  position: relative;
+}
+
+.vector2 {
+  margin: -18.5px 0 0 20px;
+  position: absolute;
+}
+
+.rectangle3 {
+  //   margin: 0 20px;
+  display: flex;
+  width: 255px;
+  height: 50px;
+  //   text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  border: 1.5px solid #20222e;
+  color: white;
+  // cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  position: relative;
+  //   grid-column-end: span 1;
+  //   margin-right: 14px;
+}
+
+.input {
+  background-color: #e5e5e5;
+  //   background-color: none;
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+  inherits: none;
+  //   text-emphasis: none;
+  //   :placeholder-shown:none;
+}
+
+.input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.rectangle {
+  //   margin-top: 65px;
+  //   margin-right: 14px;
+  display: flex;
+  width: 356px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  //   justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  border: 1.5px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+}
+
+.kolab {
+  //   margin-left: 10px;
+  margin-right: 10px;
+  //   margin: 12.5px -300px 0 0;
+  position: relative;
+}
+
+.textt {
+  //   margin: 11.5px 0 0 -120px;
+  margin-left: 10px;
+  color: #666f8c;
+  font-size: 15px;
+  position: relative;
+}
+
+.vectorup {
+  //   margin: 20px 0 0 -30px;
+  margin-left: 160px;
+  position: relative;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  display: grid;
+  //   grid-template-columns: 180px 180px 180px 160px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  //   grid-template-columns: auto auto auto auto;
+  //   max-width: 1540px;
+  grid-gap: 20px;
+  //   width: 700px ;
+  height: 50px;
+  position: absolute;
+  margin-top: 140px;
+  //   margin-left: 37%;
+  right: 510px;
+  left: 710px;
+  justify-content: center;
+  //   border: 1.5px solid #20222e;
+  border: none;
+  align-items: center;
+  //   text-align: center;
+}

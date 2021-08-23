@@ -1,0 +1,252 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 172px 35px 111px 35px 1fr 200px 50px 124px 93px 60px 250px 70px 20px 80px;
+  //   padding: 30px 40px;
+  background-color: #12151c;
+  width: 100%;
+  height: 110px;
+  //   display: flex;
+  //   flex-direction: row;
+  align-items: center;
+  //   justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  //   padding: 30px 40px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  color: #2a2d3a;
+  font-weight: 600;
+  font-size: 28px;
+  cursor: pointer;
+  //   transform: translateX(-1150px);
+  //   position: fixed;
+  //   vertical-align: middle;
+  //   justify-content: center;
+}
+
+.jackicon {
+  //   margin-left: -40%;
+  //   transform: translateX(-5100%);
+  //   position: fixed;
+}
+
+.jack {
+  font-weight: 500;
+  font-size: 15px;
+  //   margin-left: -75%;
+  //   transform: translateX(-1570%);
+  //   position: fixed;
+  cursor: pointer;
+}
+
+.helpicon {
+  //   margin-left: -33%;
+  //   transform: translateX(-4300%);
+  //   position: fixed;
+}
+
+.help {
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  //   margin-left: -62%;
+  //   transform: translateX(-2400%);
+  //   position: fixed;
+}
+
+.rectangle {
+  //   margin-left: 60%;
+  display: block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  //   align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+}
+
+.koloh {
+  margin: 12.5px 150px 0 0;
+  position: relative;
+}
+
+.textt {
+  margin: 11.5px 0 0 -140px;
+  position: absolute;
+}
+
+.vector {
+  margin: 20px 0 0 -30px;
+  position: absolute;
+}
+
+.addicon {
+  margin-left: 30px;
+  //   position: relative;
+}
+
+.add {
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+  //   transform: translateX(-2400%);
+  position: relative;
+  cursor: pointer;
+}
+
+.rectangle2 {
+  //   margin: 0 20px;
+  display: block;
+  width: 93px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+}
+
+.flaga {
+  margin: 16px 150px 0 0;
+  position: relative;
+}
+
+.vector2 {
+  margin: -18.5px 0 0 20px;
+  position: absolute;
+}
+
+.line {
+  margin-left: 30px;
+  //   position: relative;
+}
+
+.rectangle3 {
+  //   margin: 0 20px;
+  display: block;
+  width: 212px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0px 12px;
+  font-weight: 500;
+  background: none;
+  //   border: 1px solid #20222e;
+  //   color: #1e58ff;
+  //   cursor: pointer;
+  //   border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+}
+
+.rectangle4 {
+  margin: 3.5px -10px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: #2a2d3a;
+
+  // border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+}
+
+.user {
+  margin: -45px -35px;
+  position: absolute;
+}
+
+.acc {
+  margin: -25px -35px;
+  position: absolute;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.vector3 {
+  margin-left: 10px;
+  position: relative;
+}
+
+.rectangle5 {
+  //   margin: 0 -100px 0 20px;
+  //   margin: 0 20px 0 10px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: #2a2d3a;
+
+  // border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+  //   text/-align: center;
+  //   align-items: center;
+  //   justify-content: center;
+}
+
+.dzwonek {
+  margin: 9px 0 0 11.5px;
+  position: absolute;
+}
+
+.line2 {
+  //   margin: 0 120px;
+  //   margin-left: 120px;
+
+  //   position: relative;
+}
+
+.rectangle6 {
+  //   margin: 0 -100px 0 20px;
+  //   margin: 0 20px 0 10px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: none;
+
+  // border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+  //   text/-align: center;
+  //   align-items: center;
+  //   justify-content: center;
+}

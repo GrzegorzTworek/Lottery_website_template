@@ -1,0 +1,55 @@
+.chathead {
+  // display: inline-block;
+  display: flex;
+  // display: grid;
+  // flex-template-columns: 105px ;
+  width: 450px;
+  height: 79px;
+  background-color: #1b1d28;
+  color: white;
+  text-align: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 17px;
+  // margin-right: 50px;
+  // border: 2px solid #20222e;
+}
+
+.line {
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.chatcursor {
+  //   margin-right: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  // margin-right: 30px;
+}
+
+.input {
+  background-color: #1b1d28;
+  margin-left: 30px;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+  inherits: none;
+  //   text-emphasis: none;
+  //   :placeholder-shown:none;
+}
+
+.input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.input:not(:placeholder-shown) {
+}

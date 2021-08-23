@@ -1,0 +1,42 @@
+.button {
+  display: block;
+  width: 160px;
+  text-align: center;
+  // background-color: #fff;
+  // background-color: none;
+
+  background-color: #e5e5e5;
+  text-decoration: none;
+  height: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  border: 1.5px solid #20222e;
+  // border: none;
+  color: #666f8c;
+  font-family: 'Poppins' semi-bold;
+
+  font-family: 'Poppins', sans-serif;
+
+  cursor: pointer;
+  border-radius: 8px;
+  right: 400px;
+  top: 400px;
+}
+
+.secondary {
+  @extend .button;
+
+  width: 150px;
+  border: 1.5px solid #666f8c;
+  color: white;
+  // position: absolute;
+}
+
+.tritary {
+  @extend .button;
+  width: 150px;
+  border: 1.5px solid #f17043;
+  color: white;
+  // position: absolute;
+  margin-left: 269px;
+}

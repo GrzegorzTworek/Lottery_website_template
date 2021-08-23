@@ -1,0 +1,123 @@
+.wrapper {
+  display: flex;
+  height: 910px;
+  width: 619px;
+  background-color: #20222e;
+  top: 140px;
+  left: 30px;
+  position: absolute;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.champhead {
+  // display: inline-block;
+  display: flex;
+  // display: grid;
+  // flex-template-columns: 105px ;
+  width: 619px;
+  height: 81px;
+  // background-color: #2a2d3a;
+  color: white;
+  text-align: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 17px;
+  // margin-right: 50px;
+  // border: 2px solid #20222e;
+}
+
+.champ {
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+.last {
+  margin-left: 350px;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.vector {
+  margin-left: 10px;
+  // margin-right: 10px;
+}
+
+.first {
+  // display: inline-block;
+  display: flex;
+  // display: grid;
+  // flex-template-columns: 105px ;
+  width: 619px;
+  height: 72px;
+  background-color: #2a2d3a;
+  color: white;
+  text-align: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 17px;
+  // margin-right: 50px;
+  // border: 2px solid #20222e;
+}
+
+.number {
+  display: block;
+  width: 82px;
+  // margin-left: 30px;
+  // margin-right: 30px;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.rectangle4 {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: #393d4e;
+
+  // border: 2px solid #20222e;
+  //   color: #1e58ff;
+  cursor: pointer;
+  border-radius: 8px;
+  //   flex-direction: row;
+  //   position: relative;
+}
+.user {
+  display: block;
+  width: 130px;
+  margin-left: 30px;
+  margin-right: 55px;
+  font-size: 15px;
+}
+
+.koloch {
+  // margin-left: 70px;
+}
+
+.price {
+  margin-left: 10px;
+  margin-right: 100px;
+  color: #666f8c;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.percent {
+  margin-left: 52px;
+  color: #f17043;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.rectangle5 {
+  height: 30px;
+  width: 619px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
